@@ -1,0 +1,353 @@
+body {
+    background-color: white;
+}
+
+.bg-1 {
+    background-color: white;
+}
+
+.warnaNav {
+    color: black !important;
+}
+
+.warnaNav:hover {
+    color: white !important; 
+}
+
+.nav-link {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+/* Jumbotron */ 
+.jumbotron{
+    background-image: url(img/hero\ image.png);
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1 {
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size: 58px;
+    opacity: 95%;
+    margin-left: 120px;
+}
+
+.jumbotron p {
+    color: #FFC847;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    initial-letter: 0.5px;
+    opacity: 85%;
+    margin-left: 120px;
+}
+
+.jum {
+    margin-top: 370px;
+}
+
+
+/* What Sora */
+.content-1 {
+    margin: 66px auto;
+}
+
+.content-1 .deskripsi {
+    color: black;
+    text-align: center;
+}
+
+.content-1 .deskripsi h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    margin-top: 24px;
+    opacity: 95%;
+}
+
+.content-1 .deskripsi p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.content-1 .deskripsi a {
+    color: white;
+    background-color: #9A3D00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.content-1 .deskripsi a:hover {
+    color: #9A3D00;
+    background-color: white;
+    border-color: black;
+}
+
+.tombol {
+    background-color: none;
+    border: 2.5px solid #9A3D00;
+    padding: 10px 20px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.tombol::before, .tombol::after {
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background-color: #1B1B19;
+}
+
+/* Popular Menu */
+.content-2 {
+    margin: 0px auto;
+}
+
+.content-2 img {
+    margin: 12px auto;
+}
+
+.popular h3 {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+
+/* Location & Social */
+.content-3 {
+    margin: 120px auto;
+}
+
+.content-3 .deskripsi {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.content-3 .deskripsi h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    color: black;
+    opacity: 95%;
+}
+
+.content-3 .deskripsi p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.content-3 .deskripsi a {
+    color: white;
+    background-color: #9A3D00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content-3 .deskripsi a:hover {
+    color: #9A3D00;
+    background-color: white;
+    border-color: black;
+}
+
+.content-3 .deskripsi img {
+    margin-right: 12px;
+}
+
+
+/* Footer */
+
+
+.footer p {
+    color: #1B1B19;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 0;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 80%;
+    text-align: center;
+}
+
+
+/* Dekstop */
+
+@media (min-width: 992px) {
+    .bg-1 {
+        background-color: white;
+    }
+
+    .warnaNav {
+        color: black !important;
+    }
+    
+    .warnaNav:hover {
+        color: #FFC847 !important;
+    }
+    
+    .nav-link {
+        margin-left: 38px;
+        font-family: 'Lobster', cursive;
+        font-size: 18px;
+    }
+
+    .jumbotron {
+        height: 750px;
+    }
+
+    .jum {
+        margin-top: 560px;
+    }
+
+    .jumbotron h1 {
+        margin-left: 120px;
+    }
+
+    .jumbotron p {
+        margin-left: 120px;
+    }
+
+
+    /* What Sora */
+    .content-1 {
+        margin: 132px auto;
+    }
+    
+    .content-1 .deskripsi {
+        text-align: left;
+    }
+
+    .content-1 .deskripsi h3 {
+        font-size: 48px;
+        margin-top: 0;
+    }
+
+    .content-1 .deskripsi p {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .content-1 .deskripsi a {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+
+    /* Pupolar Menu */
+    .popular h3 {
+        font-size: 48px;
+        margin-top: 0;
+    }
+
+    .content-2 {
+        margin: 30px auto;
+    }
+
+    .content-2 img {
+        margin: 0px auto;
+    }
+
+    /* Location & Social */
+    .content-3 {
+        margin: 125px auto;
+    }
+    
+    .content-3 .deskripsi {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .content-3 .deskripsi h3 {
+        font-size: 48px;
+    }
+    
+    .content-3 .deskripsi p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+    
+    .content-3 .deskripsi a {
+        font-size: 12px;
+    }
+    
+    .content-3 .gambar img {
+        width: 95%;
+        height: 95%;
+    }
+    
+    .content-3 .deskripsi img {
+        margin-right: 12px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #FFC847;
+    }
+    .footer p {
+        color: #1B1B19;
+        text-align: center;
+        margin: 0 auto;
+        padding: 24px 0;
+        font-family: 'Open Sans', sans-serif;;
+        font-size: 12px;
+        font-weight: 600;
+        opacity: 80%;
+        
+    }
+ 
+}
+
+/* Tablet */
+@media(min-width : 768px){
+
+    .content-1 img {
+        margin: 0px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-2 img {
+        margin: 0px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .content-3 .gambar img {
+        margin: 0px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* Mobile */
+@media (min-width: 576px) {
+    .content-2 .gambar img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
